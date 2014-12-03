@@ -1,0 +1,36 @@
+// Buttons Sass File
+
+
+.btn {
+    height:40px;
+    text-align: center;
+    line-height: 40px;
+    padding: 0 25px;
+    -webkit-box-shadow: 2px 2px 0px 0px $dark-grey;
+    -moz-box-shadow:    2px 2px 0px 0px $dark-grey;
+    box-shadow:         2px 2px 0px 0px $dark-grey;
+
+    &:active {
+        -webkit-box-shadow: inset 2px 2px 0px 0px $dark-grey;
+        -moz-box-shadow:    inset 2px 2px 0px 0px $dark-grey;
+        box-shadow:         inset 2px 2px 0px 0px $dark-grey;
+    }
+
+    &.order {
+        width:120px;
+        margin:0 auto;
+    }
+
+    &.yellow {
+        background: $duckyellow;
+
+        &:hover {
+            background: darken( $duckyellow, 10%);
+        }
+
+        &:active {
+            background: darken( $duckyellow, 20%);
+            color:$white;
+        }
+    }
+}

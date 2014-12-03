@@ -1,0 +1,88 @@
+// Header & Nav Sass File
+
+
+.header {
+    background: url('../img/header.jpg');
+    height:100vh;
+    position: relative;
+    color:$white;
+
+    .container {
+        height: 100vh;
+        text-align: center;
+
+        .layout-row {
+            position: absolute;
+            top: 50%;
+            left:0;
+            right:0;
+            transform: translate(0, -50%)
+        }
+    }
+
+    .layout-row {
+        margin:0;
+    }
+
+    h1.title {
+        font-family: 'Moon Flower', Arial, serif;
+    }
+
+    .title-nav {
+
+        li {
+            display: inline-block;
+        }
+    }
+
+}
+
+.nav {
+    display: inline-block;
+    padding: 22px 0;
+    background: #f7f6f6;
+    color:#262222;
+    width: 100%;
+
+    .layout-row {
+        margin-bottom:0;
+    }
+
+    .nav-inner {
+        display: inline-block;
+    }
+
+    li {
+        display: inline-block;
+        margin: 0 10px;
+        margin-left:0;
+        font-family: 'Nevis', Arial, serif;
+        font-size: 16px;
+        line-height:50px;
+        
+
+        &:hover {
+            color: darken( #262222, 10%);
+        }
+    }
+
+    .logo {
+        display: inline-block;
+        font-family: 'Moon Flower', Arial, serif;
+        font-size:42px;
+        float:right;
+    }
+}
+
+
+
+// Sticky Navigation
+
+.sticky {  
+    position: fixed;  
+    width: 100%;  
+    left: 0;  
+    top: 0;  
+    z-index: 100;  
+    border-top: 0;  
+}  
