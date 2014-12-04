@@ -312,12 +312,17 @@ footer {
       left: 0;
       right: 0;
       transform: translate(0, -50%); }
+      .header .container .layout-row.home-scroll {
+        top: 95%; }
+        .header .container .layout-row.home-scroll a {
+          color: #fff; }
   .header .layout-row {
     margin: 0; }
   .header h1.title {
     font-family: 'Moon Flower', Arial, serif; }
   .header .title-nav li {
-    display: inline-block; }
+    display: inline-block;
+    margin: 0 15px; }
 
 .nav {
   display: inline-block;

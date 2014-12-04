@@ -16,7 +16,15 @@
             top: 50%;
             left:0;
             right:0;
-            transform: translate(0, -50%)
+            transform: translate(0, -50%);
+
+            &.home-scroll {
+                top:95%;
+
+                a {
+                   color:$white; 
+                }
+            }
         }
     }
 
@@ -32,7 +40,9 @@
 
         li {
             display: inline-block;
+            margin: 0 15px;
         }
+
     }
 
 }
