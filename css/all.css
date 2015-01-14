@@ -19,10 +19,11 @@ ul ul, ol ol, ul ol, ol ul {
 .clear {
   clear: both; }
 
-.content {
-  padding-top: 150px; }
+.content#home-scroll {
+  padding-top: 225px; }
 
-div::after, fieldset::after {
+div::after,
+fieldset::after {
   content: '';
   display: table;
   clear: both; }
@@ -65,12 +66,16 @@ h3 {
   margin-top: 10px; }
 
 p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.6;
   margin-bottom: 10px; }
 
 p.big {
   font-size: 30px; }
+
+p.med {
+  font-size: 14px;
+  line-height: 1.2; }
 
 p.small {
   color: #858B92;
