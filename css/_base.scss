@@ -45,18 +45,28 @@ fieldset::after {
 // Embedded fonts
 
 @font-face {
-    font-family: 'Moon Flower';
-    src: url( '../fonts/MoonFlower.ttf' ) format( 'ttf' );
+    font-family: 'MoonFlower';
+    src: url( '../fonts/MoonFlower.ttf' ) format( 'truetype' );
 }
 
 @font-face {
     font-family: 'Nevis';
-    src: url( '../fonts/nevis.ttf' ) format( 'ttf' );
+    src: url( '../fonts/nevis.ttf' ) format( 'truetype' );
 }
 
 @font-face {
     font-family: 'Oxygen';
     src: url( '../fonts/Oxygen.otf' ) format( 'otf' );
+}
+
+@font-face {
+    font-family: 'LuginaLight';
+    src: url( '../fonts/Lugina-Light.ttf' ) format( 'truetype' );
+}
+
+@font-face {
+    font-family: 'LuginaHeavy';
+    src: url( '../fonts/Lugina-Heavy.ttf' ) format( 'truetype' );
 }
 
 // Typography

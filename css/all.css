@@ -32,14 +32,20 @@ fieldset::after {
   display: none !important; }
 
 @font-face {
-  font-family: 'Moon Flower';
-  src: url("../fonts/MoonFlower.ttf") format("ttf"); }
+  font-family: 'MoonFlower';
+  src: url("../fonts/MoonFlower.ttf") format("truetype"); }
 @font-face {
   font-family: 'Nevis';
-  src: url("../fonts/nevis.ttf") format("ttf"); }
+  src: url("../fonts/nevis.ttf") format("truetype"); }
 @font-face {
   font-family: 'Oxygen';
   src: url("../fonts/Oxygen.otf") format("otf"); }
+@font-face {
+  font-family: 'LuginaLight';
+  src: url("../fonts/Lugina-Light.ttf") format("truetype"); }
+@font-face {
+  font-family: 'LuginaHeavy';
+  src: url("../fonts/Lugina-Heavy.ttf") format("truetype"); }
 body {
   color: #222326;
   font-family: 'Lato', 'Arial', 'Helvetica', sans-serif;
@@ -324,7 +330,8 @@ footer {
   .header .layout-row {
     margin: 0; }
   .header h1.title {
-    font-family: 'Moon Flower', Arial, serif; }
+    font-family: 'LuginaLight', Arial, serif;
+    text-transform: uppercase; }
   .header .title-nav li {
     display: inline-block;
     margin: 0 15px; }
@@ -350,9 +357,10 @@ footer {
       color: #0b0a0a; }
   .nav .logo {
     display: inline-block;
-    font-family: 'Moon Flower', Arial, serif;
+    font-family: 'LuginaLight', Arial, serif;
     font-size: 42px;
-    float: right; }
+    float: right;
+    text-transform: uppercase; }
 
 .sticky {
   position: fixed;
