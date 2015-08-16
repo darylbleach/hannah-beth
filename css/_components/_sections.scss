@@ -5,3 +5,33 @@ section.main {
     background: $light-grey;
     padding:20px 0;
 }
+
+// Home Section 
+
+.about-section {
+  position: relative;
+
+  .about-section__copy {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    width: 300px;
+  }
+
+  h2 {
+    font-size: 140px;
+    font-family: 'LuginaLight', Arial, serif;
+    text-transform: uppercase;
+    color: $headings;
+    margin-left: -150px;
+  }
+
+  p.med {
+    line-height: 22px;
+  }
+
+  img {
+    margin-left: -125px;
+    height: 650px;
+  }
+}

@@ -375,4 +375,23 @@ section.main {
   background: #fafafa;
   padding: 20px 0; }
 
+.about-section {
+  position: relative; }
+  .about-section .about-section__copy {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    width: 300px; }
+  .about-section h2 {
+    font-size: 140px;
+    font-family: 'LuginaLight', Arial, serif;
+    text-transform: uppercase;
+    color: #4a4266;
+    margin-left: -150px; }
+  .about-section p.med {
+    line-height: 22px; }
+  .about-section img {
+    margin-left: -125px;
+    height: 650px; }
+
 /*# sourceMappingURL=all.css.map */
